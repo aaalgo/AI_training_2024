@@ -1,1 +1,3 @@
-You are allowed to use, modify or redistribute the code and other files in this repo subject to the condition that you keep the original copyright notice that appears in the file.
+You are allowed to use, modify or redistribute the code and other files in this repo without payment subject to the condition that you keep the original copyright notice that appears in the files.  If you are to redistribute part of the repo and there's no copyright notice in the part you want to redistribute then this file must be added.
+
+Copyright Ann Arbor Algorithms Inc. 2024

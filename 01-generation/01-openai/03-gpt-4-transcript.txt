@@ -1,0 +1,31 @@
+system: You are only allowed to respond by using the provided tool.
+user: Let's play the number guessing game.
+I'll pick a secret number between 0 and 10,and you are to make guess attempts until you successfully find the correct number.
+To each of your guess I'll respond by 'Too big!', 'Too small!' or 'Bingo!'
+Let's start!
+
+
+assistant: reset
+user: Please guess!
+assistant: 5
+user: Too small!
+assistant: 7
+user: Bingo!
+assistant: reset
+user: Please guess!
+assistant: 5
+user: Too small!
+assistant: 7
+user: Too big!
+assistant: 6
+user: Bingo!
+assistant: reset
+user: Please guess!
+assistant: 5
+user: Too big!
+assistant: 3
+user: Too big!
+user: We are going to stop here.  How many rounds have we played?
+assistant: We have played 3 rounds.
+user: How many wrong guesses did you make in total?
+assistant: I made 4 wrong guesses in total.

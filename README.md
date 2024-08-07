@@ -1,3 +1,4 @@
-Copyright Ann Arbor Algorithms Inc. 2024
+2024 AAA AI Training
+====================
 
-# AI_training_2024
+Copyright Ann Arbor Algorithms Inc. 2024
