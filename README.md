@@ -1,4 +1,11 @@
 2024 AAA AI Training
 ====================
 
-Copyright Ann Arbor Algorithms Inc. 2024
+1a. (lecture) Overview
+
+1b. (lab) Generation
+
+2a. (lecture) Parameters
+
+2b. (lab) Llama
+
