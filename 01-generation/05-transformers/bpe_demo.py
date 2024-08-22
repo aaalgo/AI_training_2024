@@ -8,6 +8,7 @@ MODEL_PATH = '../models/hf/Meta-Llama-3.1-8B-Instruct'
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
 n = len(tokenizer)
+print(n)
 all_codes = torch.range(0, n).long()[:, None]
 VOCAB = tokenizer.batch_decode(all_codes, skip_special_tokens=True, clean_up_tokenization_spaces=False)
 
