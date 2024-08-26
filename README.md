@@ -1,11 +1,9 @@
 2024 AAA AI Training
 ====================
 
-1a. (lecture) Overview
+Suggested Learning Order:
 
-1b. (lab) Generation
-
-2a. (lecture) Parameters
-
-2b. (lab) Llama
-
+- 01-openai:  all notebooks.
+- 03-llama-cpp: 02-python-basic.ipynb
+- 05-transformers: all notebooks.
+- 06-vLLM: all notebooks.
