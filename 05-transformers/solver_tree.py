@@ -35,6 +35,14 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig, LogitsProcessor, LogitsProcessorList, BitsAndBytesConfig
 import colorful as cf
 
+SAMPLE_NOT_USED = '''In a week, Rayman works out for half the number of hours Junior takes to work out. Wolverine, their friend, works out for twice the combined total number of hours both Rayman and Junior take during their workouts. Calculate the number of hours Wolverine takes doing her workouts if Rayman does workouts for 10 hours in a week.
+
+1. Determine the number of hours Junior works out in a week: 10 hours / 2 = 5 hours.
+2. Calculate the combined total number of hours Rayman and Junior work out: 10 hours + 5 hours = 15 hours.
+3. Calculate the total number of hours Wolverine works out: 15 hours * 2 = 30 hours.
+4. Therefore, the answer to this problem is 30.
+'''
+
 good_token = '+'
 bad_token = '-'
 step_tag = 'ки'
