@@ -1,7 +1,7 @@
 #!/bin/bash
-#
+
 export WANDB_MODE=disabled
-./train.py --output_dir 'models/save' \
+./03-train.py --output_dir 'models/save' \
            --eval_strategy 'epoch' \
            --num_train_epochs 3  \
            --logging_steps 100 \

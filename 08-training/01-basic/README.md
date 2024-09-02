@@ -1,0 +1,3 @@
+- Step 1.  Train tokenizer, run `01-train-tokenizer.py`.
+- Step 2.  Initialize model, run `02-init.py`.
+- Step 3.  Train, run `03-train.py`.
