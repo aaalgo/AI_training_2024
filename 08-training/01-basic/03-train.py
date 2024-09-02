@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-import sys
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
@@ -11,7 +7,6 @@ from transformers import (
     HfArgumentParser,
     Trainer
 )
-from transformers.models.llama.modeling_llama import LlamaForCausalLM
 from datasets import load_dataset
 import config
 
@@ -50,6 +45,7 @@ def main ():
 
     trainer = Trainer(
         model=model,
+        tokenizer=tokenizer,
         args=training_args,
         data_collator=collator,
         train_dataset=train_dataset,
