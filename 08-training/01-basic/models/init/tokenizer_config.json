@@ -1,0 +1,9 @@
+{
+    "tokenizer_class": "RobertaTokenizer",
+    "do_lower_case": false,
+    "bos_token": "<s>",
+    "eos_token": "</s>",
+    "unk_token": "<unk>",
+    "pad_token": "<pad>"
+}
+
